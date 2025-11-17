@@ -10,3 +10,19 @@ img {
   display: block;
   margin: 1rem auto;
 }
+.lesion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.lesion-item {
+  flex: 1 1 320px;
+  max-width: 480px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.04);
+}
