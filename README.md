@@ -1,1 +1,1 @@
-# patoloji-atlasi-gk
+# Gulnihal22.io
