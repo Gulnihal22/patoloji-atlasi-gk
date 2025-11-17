@@ -1,0 +1,12 @@
+/* Resimler taşmasın, hoş dursun */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Markdown içindeki resimleri ortala */
+.md-content img {
+  display: block;
+  margin: 1rem auto;
+}

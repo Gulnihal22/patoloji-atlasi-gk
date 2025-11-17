@@ -1,0 +1,147 @@
+site_name: Patoloji Atlası
+
+theme:
+  name: material
+  language: tr
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+  font:
+    text: Roboto
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - toc.integrate
+
+nav:
+  - Anasayfa: index.md
+  - Giriş: giris.md
+
+  - Genel Patoloji:
+      - 1  Patolojide Kullanılan Teknikler: 01-patolojide-kullanilan-teknikler.md
+      - 2  Hücre İçi Birikimler: 02-hucre-ici-birikimler.md
+      - 3  Hücre Dışı Birikimler: 03-hucre-disi-birikimler.md
+      - 4  Hücre Hasarı: 04-hucre-hasari.md
+      - 5  Hemodinamik Bozukluklar: 05-hemodinamik-bozukluklar.md
+      - 6  İskemi ve Nekroz: 06-iskemi-ve-nekroz.md
+      - 7  Konjesyon: 07-konjesyon.md
+      - 8  Amiloid birikimi: 08-amiloid-birikimi.md
+      - 9  Tamir Mekanizmaları: 09-tamir-mekanizmalari.md
+      - 10 Erozyon: 10-erozyon.md
+
+  - İnflamasyon:
+      - 11 Akut inflamasyon: 11-akut-inflamasyon.md
+      - 12 Kronik inflamasyon: 12-kronik-inflamasyon.md
+      - 13 Granülamatöz İnflamasyon: 13-granulomatoz-inflamasyon.md
+
+  - İnfeksiyöz Hastalıkların Patolojisi:
+      - 14 Viruslar: 14-viruslar.md
+      - 15 Bakteriler: 15-bakteriler.md
+      - 16 Mantarlar: 16-mantarlar.md
+      - 17 Parazitler: 17-parazitler.md
+
+  - Temel Tümör Patolojisi:
+      - 18 Benign Tümörler: 18-benign-tumorler.md
+      - 19 Hamartom: 19-hamartom.md
+      - 20 Heterotopi Ektopi: 20-heterotopi-ektopi.md
+      - 21 Metaplazi: 21-metaplazi.md
+      - 22 Karsinogenez: 22-karsinogenez.md
+      - 23 Malign Tümör Özellikleri: 23-malign-tumor-ozellikleri.md
+      - 24 Metastaz: 24-metastaz.md
+      - 25 Başka Organlara Tümör Yayılımı: 25-baska-organlara-tumor-yayilimi.md
+      - 26 Tümör Heterojenitesi: 26-tumor-heterojenitesi.md
+
+  - Tümörlerdeki Prognostik Morfolojik Özellikler:
+      - 27 Venöz İnvazyon: 27-venoz-invazyon.md
+      - 28 Ekstramural Venöz İnvazyon: 28-ekstramural-venoz-invazyon.md
+
+  - Hematopatoloji:
+      - 29 Hodgkin Lenfoma: 29-hodgkin-lenfoma.md
+
+  - Gastrointestinal Sistem Patolojisi:
+      - 30 Gastrointestinal Sistem: 30-gastrointestinal-sistem.md
+      - 31 Özofagus: 31-ozofagus.md
+      - 32 Mide Patolojisi: 32-mide-patolojisi.md
+      - 33 Gastrit: 33-gastrit.md
+      - 34 Duodenum Patolojisi: 34-duodenum-patolojisi.md
+      - 35 Kolon Patolojisi: 35-kolon-patolojisi.md
+      - 36 Crohn Hastalığı: 36-crohn-hastaligi.md
+
+  - Karaciğer Patolojisi:
+      - 37 Karaciğer Transplantasyonu: 37-karaciger-transplantasyonu.md
+      - 38 Benign Karaciğer Tümörleri: 38-benign-karaciger-tumorleri.md
+      - 39 Malign Karaciğer Tümörleri: 39-malign-karaciger-tumorleri.md
+
+  - Pankreatobilier Sistem Patolojisi:
+      - 40 Safra Kesesi: 40-safra-kesesi.md
+      - 41 Ampulla Vater: 41-ampulla-vater.md
+
+  - Akciğer Patolojisi:
+      - 42 Nöroendokrin: 42-noroendokrin.md
+
+  - Mezotel:
+      - 43 Abdomen: 43-mezotel-abdomen.md
+
+  - Jinekolojik Patoloji:
+      - 44 Jinekolojik Patoloji: 44-jinekolojik-patoloji.md
+      - 45 Genital Sistem Patolojisi: 45-genital-sistem-patolojisi.md
+      - 46 Serviks: 46-serviks.md
+      - 47 Endometrium: 47-endometrium.md
+      - 48 Endometriozis: 48-endometriozis.md
+
+  - Üriner Sistem Patolojisi:
+      - 49 Üropatoloji: 49-uropatoloji.md
+      - 50 Böbrek Tümörleri / Renal Tümörler: 50-bobrek-tumorleri.md
+      - 51 Prostat: 51-prostat.md
+
+  - Endokrin Sistem Patolojisi:
+      - 52 Hipofiz Adenomu: 52-hipofiz-adenomu.md
+      - 53 Adrenal Bez Patolojisi: 53-adrenal-bez-patolojisi.md
+
+  - Meme Patolojisi:
+      - 54 Meme Tümörleri: 54-meme-tumorleri.md
+
+  - Baş Boyun Patolojisi:
+      - 55 Nazofarenks: 55-nazofarenks.md
+      - 56 Kulak: 56-kulak.md
+      - 57 Tükürük Bezi: 57-tukuruk-bezi.md
+
+  - Santral Sinir Sistem Patolojisi:
+      - 58 Gliomlar: 58-gliomlar.md
+      - 59 Meningiom: 59-meningiom.md
+      - 60 Vasküler Lezyonlar: 60-vaskuler-lezyonlar.md
+
+  - Kemik Patolojisi:
+      - 61 Kemik Tümörleri: 61-kemik-tumorleri.md
+
+  - Yumuşak Doku Patolojisi:
+      - 62 Adipöz Doku Patolojisi: 62-adipoz-doku-patolojisi.md
+
+  - Pediatrik ve Perinatal Patoloji:
+      - 63 Plasenta: 63-plasenta.md
+
+  - Sitopatoloji:
+      - 64 BOS: 64-bos.md
+
+
+extra_css:
+  - overrides/stylesheets/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
+  - overrides/js/glightbox-init.js
+
+
+extra_css:
+  - overrides/stylesheets/extra.css
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
+
